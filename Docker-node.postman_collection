@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Docker-node",
+		"_postman_id": "97c9196a-e84b-3942-d102-0edd80c1c760",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Formations",
+			"request": {
+				"url": "localhost:8080/formations",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Formations",
+			"request": {
+				"url": "localhost:8080/formations",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"nartawak\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
